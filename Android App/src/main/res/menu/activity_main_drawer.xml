@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home1"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_detect"
+            android:icon="@drawable/ic__detect"
+            android:title="Detection" />
+        <item
+            android:id="@+id/nav_places"
+            android:icon="@drawable/ic_hospital"
+            android:title="Nearby Hospitals" />
+        <item
+            android:id="@+id/nav_tests"
+            android:icon="@drawable/ic_test"
+            android:title="Diagnostic Tests" />
+        <item
+            android:id="@+id/nav_whoatrisk"
+            android:icon="@drawable/ic_about"
+            android:title="Who's at high risk" />
+        >
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout1"
+            android:title="Logout"
+            />
+
+    </group>
+
+
+</menu>

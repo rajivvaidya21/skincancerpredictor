@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.bca.cancercure.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_detect"
+        android:name="com.bca.cancercure.ui.detection.DetectionFragment"
+        android:label="Detection"
+        tools:layout="@layout/fragment_detection" />
+
+    <fragment
+        android:id="@+id/nav_places"
+        android:name="com.bca.cancercure.ui.places.NearbyPlaces"
+        android:label="Nearby Hospitals"
+        tools:layout="@layout/fragment_places" />
+    <fragment
+        android:id="@+id/nav_tests"
+        android:name="com.bca.cancercure.ui.diagtests.testsFragment"
+        android:label="Tests"
+        tools:layout="@layout/fragment_tests" />
+
+    <fragment
+        android:id="@+id/nav_whoatrisk"
+        android:name="com.bca.cancercure.ui.whosatrisk.whoatriskFragment"
+        android:label="Whosatrisk"
+        tools:layout="@layout/fragment_whosatrisk" />
+</navigation>

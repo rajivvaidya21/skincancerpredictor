@@ -1,0 +1,1 @@
+This module accepts requests from Android clients and manages interactions with the database. It forwards relevant requests to the FastAI module for skin cancer predictions.

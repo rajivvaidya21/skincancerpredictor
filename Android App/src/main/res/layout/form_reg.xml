@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lgon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:hint="First Name"
+            android:fontFamily="sans-serif-light"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/lname"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:hint="Last Name"
+            android:fontFamily="sans-serif-light"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:hint="Email"
+            android:fontFamily="sans-serif-light"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:hint="Password"
+            android:fontFamily="sans-serif-light"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/phno"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:hint="Phone"
+            android:fontFamily="sans-serif-light"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/spinner_bg"
+            android:spinnerMode="dialog" />
+        <Spinner
+            android:id="@+id/countrySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/spinner_bg"
+            android:spinnerMode="dialog" />
+
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="Date of Birth"
+            android:fontFamily="sans-serif-light"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/roundbutton"
+            android:text="Register"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

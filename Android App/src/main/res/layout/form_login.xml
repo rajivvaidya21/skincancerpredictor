@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lgon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLay1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/loginUsername"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:hint="Username"
+            android:backgroundTint="@android:color/black"
+            android:textColorHint="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:textColorHint="@color/black"
+            android:hint="Password"
+            android:backgroundTint="@android:color/black"
+            android:fontFamily="sans-serif-light"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/roundbutton"
+            android:text="Login"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/regBtn"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/roundbuttonreg"
+            android:text="Register"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="6">
+
+        <ImageView
+            android:id="@+id/imageRoll"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:gravity="center_horizontal"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/loadd" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

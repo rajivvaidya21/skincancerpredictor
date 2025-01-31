@@ -1,0 +1,14 @@
+com\cancercure\main\AuthorizedUtils.class
+com\cancercure\config\Constants.class
+com\cancercure\model\User.class
+com\cancercure\main\ProcessModel.class
+com\cancercure\model\Lesion.class
+com\cancercure\main\DashboardActivities.class
+com\cancercure\model\Results.class
+com\cancercure\config\ApplicationConfig.class
+com\cancercure\jwt\JWTVerifier.class
+com\cancercure\main\AsyncTasks.class
+com\cancercure\main\InformationActivities.class
+com\cancercure\main\Login.class
+com\cancercure\database\DataSource.class
+com\cancercure\main\Registration.class

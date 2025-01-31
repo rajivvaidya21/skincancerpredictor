@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.diagtests.testsFragment">
+
+
+    <Button
+        android:id="@+id/mriBTN"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:layout_marginTop="368dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/bmridrawable"
+        android:gravity="bottom|center"
+        android:text="MRI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ctBtn"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:layout_marginTop="532dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/biopsydrawable"
+        android:gravity="bottom|center"
+        android:text="Skin Biopsy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/testTextView"
+        android:layout_width="371dp"
+        android:layout_height="316dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text=""
+        android:textColor="#373737"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/mriBTN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
